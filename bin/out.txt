@@ -1,0 +1,5 @@
+24 3x6x30.txt
+6 3x16x42.txt
+10 4x16x42.txt
+17 8x16x42.txt
+14 6x16x42.txt

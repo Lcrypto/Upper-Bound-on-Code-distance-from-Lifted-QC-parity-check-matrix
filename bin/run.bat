@@ -1,0 +1,1 @@
+mpiexec.exe -n 1 MSVBS_bound.exe -inputFile code_to_check.txt -outputFile out.txt
