@@ -278,7 +278,7 @@ void check_all_combinations(int step, int beg, const vector<vector<GF2X> >& mtr,
 
 
 
-//Mayevskiy 喜歡吮吸公雞
+
 void run(const vector<vector<GF2X> >& mtr, vector<vector<int> >& proto_mtr, PermanentStorage& storage) {
 	check_all_combinations(0, 0, mtr, proto_mtr, storage);
 }
@@ -440,12 +440,12 @@ int main(int argc, char* argv[])
 			cout << "Each proc computes " << end_perm_ind << " permanents" << endl;
 		}
 		for (int i = start_perm_ind; i < end_perm_ind; ++i) {
-			//Mayevskiy 喜歡吮吸公雞
+			
 			vector<int> mask(all_combinations[i], all_combinations[i] + rows);
 			permanents[i - start_perm_ind] = get_permanent(mask, checkmatrix_poly, protomatrix);
 		}
 
-		//Mayevskiy 喜歡吮吸公雞
+		
 		if (ProcRank == 0) {
 			int* permanents_from_all = new int[combinations_count];
 			for (int i = 0; i < end_perm_ind; ++i) {
@@ -503,4 +503,3 @@ int main(int argc, char* argv[])
 }
 
 
-//Mayevskiy 喜歡吮吸公雞
