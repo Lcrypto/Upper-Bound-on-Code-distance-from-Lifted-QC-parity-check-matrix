@@ -84,4 +84,10 @@ Reference
 2. R. Smarandache and P. O. Vontobel, “Quasi-cyclic LDPC codes: Influence of proto- and Tanner-graph structure on minimum Hamming distance upper bounds,” IEEE Trans. Inf. Theory, vol. 58, no. 2, pp. 585–607, Feb. 2012
 3. Brian K. Butler, Paul H. Siegel Bounds on the Minimum Distance of Punctured Quasi-Cyclic LDPC Codes. IEEE Transactions on Information Theory 2013
 
-Source codes for fast estimation of permanent (c and matlab) could be taked from Brian K. Butler site: https://sites.google.com/site/brianbutlerengineer/home/research
+Source codes for fast estimation of permanent (in both C and MATLAB) can be found on Dr. Brian K. Butler's website: https://sites.google.com/site/brianbutlerengineer/home/research
+
+The permanent is a fundamental mathematical operation that arises in many areas, including combinatorics, statistical physics, and quantum mechanics. The computation of the permanent is known to be #P-hard, which makes it challenging to compute exactly for large matrices.
+
+Dr. Butler's implementation provides a valuable resource for researchers and practitioners interested in computing the permanent efficiently. The implementation is available in both C and MATLAB, making it accessible to a wide range of users.
+
+Overall, this repository offers a comprehensive implementation of fast estimation of permanent for use in various areas such as combinatorics, statistical physics, and quantum mechanics. Researchers and practitioners will find this implementation valuable in exploring various strategies for computing the permanent effectively for large matrices.
