@@ -1,4 +1,10 @@
-MPICH parallel implementation(multithreaded and servers clusters) of upper bound(general idea proposed by MacKay, was further development by Smarandache-Vontobel improved by Butler-Siegel) on code (Hamming) distance estimation for  QC codes. Implementation use NTL library, MPI CH. Compiled lib and MS VS projects attached. 
+The GitHub repository contains a C++ tool for estimating upper bounds on code (Hamming) distance estimation for QC codes using an MPICH parallel implementation. The tool supports multithreaded and server clusters and is based on the general idea proposed by MacKay, which has been further developed by Smarandache-Vontobel and improved by Butler-Siegel.
+
+This implementation uses the NTL library, MPI CH, and includes compiled libraries and MS Visual Studio projects. The tool provides a valuable resource for researchers and practitioners interested in optimizing the performance of their error-correcting coding schemes.
+
+Estimating the code distance is a crucial step in designing efficient error-correcting codes that can recover from errors introduced during communication. By providing an estimation of the upper bound on the code distance, this tool allows researchers and practitioners to optimize their coding schemes for better error-correction performance.
+
+Overall, this repository offers a comprehensive C++ tool for estimating upper bounds on code distance estimation for QC codes. With its support for multithreading and server clusters, researchers and practitioners will find this tool valuable in exploring various strategies for designing efficient error-correcting codes with high-performance rates.
 
 
 
